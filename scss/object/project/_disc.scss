@@ -1,0 +1,8 @@
+.p-disc {
+   display: flex;
+   flex-direction: column;
+   @import "../component/hamburger";//.c-headline--lv2
+   > p {
+      font-weight: bold;
+   }
+}

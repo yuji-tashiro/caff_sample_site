@@ -1,0 +1,18 @@
+.p-contents {
+   position: relative;
+   height: 100%;
+   @import "../component/headline";
+   @import "../component/hamburger";
+   @import "../project/overlay";
+   @import "../project/home-menu";
+   &--main {
+      width: 85%;
+      margin: 20px auto;
+      @import "../project/disc";
+      @import "../project/global-menu";
+   }
+   &--bottom {
+      @import "../component/headline";
+      @import "../project/home-menu";
+   }
+}

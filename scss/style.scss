@@ -1,0 +1,19 @@
+@import "foundation/mixin";
+@import "foundation/base";
+.l-main {
+}
+.p-main {
+// ========================================
+// front-page
+// ========================================
+
+   @import "../scss/object/project/gb-slider";
+
+// ========================================
+// front-page
+// ========================================
+
+   @import "../scss/object/project/parallax";
+
+   @import "../scss/object/project/contents";
+}
