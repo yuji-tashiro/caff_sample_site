@@ -1,7 +1,7 @@
-.p-home-menu {
+.p-global {
    position: absolute;
    bottom: 0;
-   &__menu {
+   .p-global-menu {
       display: flex;
       flex-direction: column;
       &__item {
@@ -31,15 +31,12 @@
             }
          }
       }
-      .u-padding--home-menu {//single//
+      .u-padding--global-menu__item {//single//
          padding: 0 15px;
       }
    }
    .u-flex--row {
       flex-direction: row;
-   }
-   &--bottom {
-      
    }
 }
 @import "../utility/position";//single//

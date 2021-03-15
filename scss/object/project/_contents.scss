@@ -4,15 +4,17 @@
    @import "../component/headline";
    @import "../component/hamburger";
    @import "../project/overlay";
-   @import "../project/home-menu";
+   @import "../project/global";
    &--main {
       width: 85%;
       margin: 20px auto;
       @import "../project/disc";
-      @import "../project/global-menu";
+      @import "../project/caff-menu";
    }
    &--bottom {
+      position: relative;
+      height: 100%;
       @import "../component/headline";
-      @import "../project/home-menu";
+      @import "../project/global";
    }
 }

@@ -1,7 +1,17 @@
-.u-position{
+.u-position {
    &--right-h1 {
       position: absolute;
       top: 20px;
       right: 20px;
+   }
+   &--right-h2{
+      position: absolute;
+      bottom: 20px;
+      left: 25%;
+   }
+   &--bottom {
+      position: absolute;
+      bottom: 0;
+      background-color: gold;
    }
 }

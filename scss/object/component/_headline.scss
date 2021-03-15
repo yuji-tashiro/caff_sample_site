@@ -15,5 +15,17 @@
       &--menu {
          padding: 20px 0;
       }
+      &--fotter {
+         font-family: 'Alegreya Sans SC', sans-serif;
+         font-size: 2.2rem;
+         display: flex;
+         align-items: center;
+         > a {
+         padding: 25px 30px;
+         color: white;
+         text-decoration: none;
+         }
+      }
+      @import "../utility/position";
    }
 }
